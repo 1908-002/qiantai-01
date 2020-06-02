@@ -1,7 +1,6 @@
 package com.lkc.service;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,5 +11,10 @@ public class HelloServiceImpl implements HelloService{
     @Override
     public String hello2() {
         return "调用成功2";
+    }
+
+    @RequestMapping("/hi3")
+    public String hello3() {
+        return "调用成功3";
     }
 }
