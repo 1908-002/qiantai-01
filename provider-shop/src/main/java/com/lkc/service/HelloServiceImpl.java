@@ -13,8 +13,5 @@ public class HelloServiceImpl implements HelloService{
         return "调用成功2";
     }
 
-    @RequestMapping("/hi3")
-    public String hello3() {
-        return "调用成功3";
-    }
+
 }
