@@ -28,4 +28,10 @@ public class HelloController {
         mav.setViewName("main");
         return mav;
     }
+
+    @RequestMapping("/dingDan")
+    public String dingDan(){
+
+        return "DingDan";
+    }
 }
