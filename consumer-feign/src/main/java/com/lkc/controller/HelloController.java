@@ -29,7 +29,7 @@ public class HelloController {
         return mav;
     }
 
-    @RequestMapping("/dingDan")
+    @RequestMapping("/DingDan")
     public String dingDan(){
 
         return "DingDan";
